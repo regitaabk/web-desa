@@ -1,0 +1,38 @@
+table{
+  border-spacing: 0;
+  margin: 0;
+  width: 100%;
+}
+thead{
+  background: #024959;
+}
+th{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 15px 10px;
+  color: #fff;
+}
+tbody{
+  background: #ffffff;
+  font-size: 1rem;
+}
+td:nth-child(2){
+  text-align: left;
+}
+td{
+  text-align: left;
+  padding: 15px 10px;
+}
+tbody td .edit{
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  background: lightgreen;
+}
+tbody td .delete{
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  background: salmon;
+}

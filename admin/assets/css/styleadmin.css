@@ -1,0 +1,179 @@
+/*style login*/
+a {
+  text-decoration: none;
+}
+body {
+  background: #f2f2f2;
+}
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 410px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card-content {
+  padding: 12px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#signup {
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #24c64f;
+}
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 1px;
+  width: 100%;
+}
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+.underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+
+/* Table */
+    .table thead{
+      font-family: 'Rajdhani',sans-serif;
+      font-size: 15px;
+      border: 4px solid #f2f2f2;
+    }
+    .table thead tr th{
+      border:1px solid #f2f2f2;
+      color:#024959;
+      text-transform: uppercase;
+    }
+    .table tbody tr td{
+      font-size: 13px;
+      border: 1px solid #f2f2f2;
+    }
+    .table tbody td a{
+      border:2px solid #c0c0c0;
+      color: white;
+      background: #024959;
+    } 
+    
+    
+/*menu di admin*/
+.menu2{
+  list-style: none;
+
+}
+.menu2 li{
+  float: left;
+  margin: 10px 10px 10px 10px;
+
+}
+.menu2 li a{
+  border: 2px solid black; 
+  box-shadow: 7px 7px black;
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
+
+}
+.menu2 li a{
+  background-color: #f2f2f2;
+}
+
+  /*form*/
+  .form1 form{
+    width: 100%;
+    border: 5px solid #f2f2f2 ;
+    font-size: 30px;
+  }
+  .textbox{
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .textbox label{
+    font-family: Times New Roman;
+    font-size: 22px;
+  }
+  .textbox input[type=text]{
+    width: 99%;
+    padding: 12px 12px;
+    margin-bottom: 10px;
+    border:0px;
+    border-bottom: 4px solid red;
+  }
+  .styled-select select{
+    margin: 10px 0;
+    padding: 7px 7px;
+    width: 50%;
+  }
+
+.tambah1{
+  flex: 1;
+  position: relative;
+}
+.tambah1 input{
+  line-height: 55px;
+  height: 45px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: 'Rajdhani',sans-serif;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background-color: #024959;
+  line-height: 30px;
+  font-weight: 550;
+  color: white;
+  display: inline-block;
+  transition: 0.5s all;
+  border: 2px solid #024959;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -moz-transition: 0.5s all;
+}
+.tambah1 input:hover{
+  background: none;
+  color: #024959;
+}
